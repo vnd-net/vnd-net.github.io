@@ -37,6 +37,10 @@ a {
   margin-right: auto;
   margin-left: auto;
 }
+    .container p{
+        text-align:center;
+        font-style:italic;
+    }
 /* line 32, ../sass/demo.scss */
 .container .gallery a img {
   float: left;
@@ -62,6 +66,9 @@ a {
 /* line 57, ../sass/demo.scss */
 .container .gallery a.big img {
   width: 40%;
+}
+.container .gallery a.medium img {
+  width: 30%;
 }
 
 /* line 65, ../sass/demo.scss */
