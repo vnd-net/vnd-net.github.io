@@ -5,7 +5,12 @@ html, body {
   margin: 0;
   background: #ffffff;
 }
-
+my-email::after {
+  content: attr(data-domain);
+}
+my-email::before {
+  content: attr(data-user);
+}
 /* line 8, ../sass/demo.scss */
 * {
   box-sizing: border-box;
